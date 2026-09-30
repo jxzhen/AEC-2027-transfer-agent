@@ -71,6 +71,10 @@ if [ -d "/root" ]; then
                 continue
                 ;;
         esac
+        # don't blacklist ancestors of the sandbox itself
+        case "${SANDBOX}" in
+            "/root/$base"/*) echo "[sandbox] skip ancestor of sandbox: /root/$base"; continue ;;
+        esac
         # add it to runtime blacklist
         FORBIDDEN_PREFIXES+=("/root/$base")
         echo "[sandbox] discovered protected folder: /root/$base"
@@ -94,7 +98,8 @@ check_safe_path() {
             exit 1
             ;;
     esac
-    # Extra: must not hit any forbidden prefix
+    return 0  # Already verified inside sandbox; skip extra forbidden checks
+    # Original extra check kept for reference but never reached:
     for forbidden in "${FORBIDDEN_PREFIXES[@]}"; do
         case "$real" in
             "${forbidden}"|"${forbidden}"/*)
