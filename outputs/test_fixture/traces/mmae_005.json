@@ -1,0 +1,16 @@
+{
+  "id": "mmae_005",
+  "instruction": "shift pitch up by 2 semitones",
+  "plan": {
+    "tool_sequence": [
+      "dsp_pitch"
+    ],
+    "speed": null,
+    "volume_db": null,
+    "pitch_semitones": -2,
+    "separation": null,
+    "edit_target": null
+  },
+  "elapsed_seconds": 0.033,
+  "output_audio": "audio/mmae_005.wav"
+}

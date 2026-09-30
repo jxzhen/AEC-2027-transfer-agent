@@ -1,0 +1,16 @@
+{
+  "id": "mmae_004",
+  "instruction": "remove the noise from the audio",
+  "plan": {
+    "tool_sequence": [
+      "edit"
+    ],
+    "speed": null,
+    "volume_db": null,
+    "pitch_semitones": null,
+    "separation": null,
+    "edit_target": null
+  },
+  "elapsed_seconds": 0.033,
+  "output_audio": "audio/mmae_004.wav"
+}

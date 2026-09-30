@@ -1,0 +1,189 @@
+{
+  "project": "AEC-2027-transfer-agent",
+  "version": "0.2.0",
+  "note": "NOT the official ICASSP 2027 AEC submission. Backup / contrast / fail-safe artifact only.",
+  "official_submission_repo": "jxzhen/aec-2027-editx-lora",
+  "file_count": 36,
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "5c5bab8ff6b4cf86d059aaf3b3aecc0bb667b7ce06bdbe7367b6029822b3253f",
+      "size_bytes": 352
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "6d9e1b4a651c0fc8521f7a07637bc3912c6763fed7d66dddd0d563684e66db09",
+      "size_bytes": 1676
+    },
+    {
+      "path": "MANIFEST.json",
+      "sha256": "66ced95dc3ba30314f840f518718966e80aa4fe3c1cb4539512838f5d39866d4",
+      "size_bytes": 6305
+    },
+    {
+      "path": "README.md",
+      "sha256": "f8cbcaf71099896af78c77f7a42d038b18524997347955f63d3555f25787cacf",
+      "size_bytes": 6837
+    },
+    {
+      "path": "SHA256SUMS.txt",
+      "sha256": "7e69438a586b1d2fa668e058ebd2a68b7b3fb26ac411544f46bebbc5a4156ddf",
+      "size_bytes": 3529
+    },
+    {
+      "path": "agent/downloader.py",
+      "sha256": "108135c14b9744145a0d712105839bd5981e93643d01a97d1416e998db17d4d2",
+      "size_bytes": 10664
+    },
+    {
+      "path": "agent/router.py",
+      "sha256": "69a1929295602c244ebf587246b7ad3e79e96a6d01656e6f42a9c7bcc366fe41",
+      "size_bytes": 11931
+    },
+    {
+      "path": "outputs/test_fixture/MMAE-meta.json",
+      "sha256": "0b0198f8c988b20946bb1f8fbde2ba892e8eea663477503ff15f57ffd5c456aa",
+      "size_bytes": 642
+    },
+    {
+      "path": "outputs/test_fixture/SHA256SUMS.txt",
+      "sha256": "ae2145bfb8e1318d27aacc7a3612cac969d1c2a64b5188e1391ff1f1f4207e9e",
+      "size_bytes": 1666
+    },
+    {
+      "path": "outputs/test_fixture/audio/mmae_001.wav",
+      "sha256": "99d1d771f5c951b7cf82fd35722f48f7390021df3f4362ba49d0e37a1c20594c",
+      "size_bytes": 32044
+    },
+    {
+      "path": "outputs/test_fixture/audio/mmae_002.wav",
+      "sha256": "1abcde4e06824bdf2a34f9c093d896ed8c1c9959b6c5b796faa13fe463bde02b",
+      "size_bytes": 48044
+    },
+    {
+      "path": "outputs/test_fixture/audio/mmae_003.wav",
+      "sha256": "6c8a55f73d5b73c4f0e65967fe437e244e7ecf024fb51bd2b291c146643db15a",
+      "size_bytes": 42710
+    },
+    {
+      "path": "outputs/test_fixture/audio/mmae_004.wav",
+      "sha256": "99d1d771f5c951b7cf82fd35722f48f7390021df3f4362ba49d0e37a1c20594c",
+      "size_bytes": 32044
+    },
+    {
+      "path": "outputs/test_fixture/audio/mmae_005.wav",
+      "sha256": "6004500f08f50df066e7c8cfe9718b8ea631534fa2eb7ba6d7086a1b76bf98e7",
+      "size_bytes": 48042
+    },
+    {
+      "path": "outputs/test_fixture/mmae_001.wav",
+      "sha256": "99d1d771f5c951b7cf82fd35722f48f7390021df3f4362ba49d0e37a1c20594c",
+      "size_bytes": 32044
+    },
+    {
+      "path": "outputs/test_fixture/mmae_002.wav",
+      "sha256": "891218cb25751ec0e2637500a2913e004561f50a99eefe4dbb5a18a826381f6b",
+      "size_bytes": 48044
+    },
+    {
+      "path": "outputs/test_fixture/mmae_003.wav",
+      "sha256": "411414bdaa0707ead7a60367dca8b80aa61cf0a1233862c2687dc03782acc7c8",
+      "size_bytes": 64044
+    },
+    {
+      "path": "outputs/test_fixture/mmae_004.wav",
+      "sha256": "99d1d771f5c951b7cf82fd35722f48f7390021df3f4362ba49d0e37a1c20594c",
+      "size_bytes": 32044
+    },
+    {
+      "path": "outputs/test_fixture/mmae_005.wav",
+      "sha256": "891218cb25751ec0e2637500a2913e004561f50a99eefe4dbb5a18a826381f6b",
+      "size_bytes": 48044
+    },
+    {
+      "path": "outputs/test_fixture/predictions.json",
+      "sha256": "942ced426a042a0d4d18b91cb1acdcdb80d51ada6dea2e618049fbbb4268e733",
+      "size_bytes": 790
+    },
+    {
+      "path": "outputs/test_fixture/run_meta.json",
+      "sha256": "67e6b9dcf6cf819cad802a1b51a85466ee06e4754bec276b58abab072fbb0a36",
+      "size_bytes": 345
+    },
+    {
+      "path": "outputs/test_fixture/submission.jsonl",
+      "sha256": "b50ab8aab416632226ae1710cad2b07a7af9548cac06a566bbe94892e48ca4bc",
+      "size_bytes": 280
+    },
+    {
+      "path": "outputs/test_fixture/traces/mmae_001.json",
+      "sha256": "5aeb5184df14df9cbcd3cda26950fd87866b099f468f13f46207a630e8f08ab4",
+      "size_bytes": 340
+    },
+    {
+      "path": "outputs/test_fixture/traces/mmae_002.json",
+      "sha256": "be298e5f0fb8871d2ef1c7e851938e762bb0d8ff60f1fac47ecf16396f04ec6f",
+      "size_bytes": 324
+    },
+    {
+      "path": "outputs/test_fixture/traces/mmae_003.json",
+      "sha256": "1b49e2ad2d97b9dbe57a2e001b3bfd38d361b24f66d1e80e701e6c2a2018b2ff",
+      "size_bytes": 336
+    },
+    {
+      "path": "outputs/test_fixture/traces/mmae_004.json",
+      "sha256": "481f2b837a4953cad4dd01e30808cf761719766bd46c24ce6f7b12af76b76799",
+      "size_bytes": 336
+    },
+    {
+      "path": "outputs/test_fixture/traces/mmae_005.json",
+      "sha256": "3056982dc17a7640e7e0456e4d8e75181cba6ec39ee0deb0b1f9ecaef7b1c865",
+      "size_bytes": 337
+    },
+    {
+      "path": "paper/paper.md",
+      "sha256": "8dff688c8885cd992458c02ef0307fbbabf8d443158151d564a40d2a5f0ee394",
+      "size_bytes": 7282
+    },
+    {
+      "path": "tools/_b64gen.py",
+      "sha256": "7be8ad8663f58a40b67b6da8e6abeb59ba525d0ebad18d10fcc17c3da93e71c3",
+      "size_bytes": 1199
+    },
+    {
+      "path": "tools/_clean_ascii.py",
+      "sha256": "99be3782870b960ea9f49b3d0d7ed50a287e63660bd8d99f161a28e9782533f4",
+      "size_bytes": 7680
+    },
+    {
+      "path": "tools/_find_non_ascii.py",
+      "sha256": "1f4b962e9153ac02f842f30104b55143ddcc9280b77e1fb26751a4079356b538",
+      "size_bytes": 541
+    },
+    {
+      "path": "tools/_paste_cmd.txt",
+      "sha256": "e15a00a46923193f692eb5153ba6cd8dc4072c6c4da285dddba250f7a53195eb",
+      "size_bytes": 12590
+    },
+    {
+      "path": "tools/_smoke.py",
+      "sha256": "f7c05339ebfdf1dde9cf052e0b48dcbc0168d992ab73daf498f708a3f9f83ef5",
+      "size_bytes": 738
+    },
+    {
+      "path": "tools/make_fixture.py",
+      "sha256": "77b14610c2661fffbde3f752a81bde42532e7619d4490a394d5edd060a424956",
+      "size_bytes": 1667
+    },
+    {
+      "path": "tools/run_agent.sh",
+      "sha256": "2dcf447343536d91346b4db7160efb4d132f0a9fc1aa22bbc6c99af0bcdce215",
+      "size_bytes": 648
+    },
+    {
+      "path": "tools/setup_autodl.sh",
+      "sha256": "a6e654b0afdf161b18143b3f5b9bbf9778a2240173da3e88d72b0c50c632bcb9",
+      "size_bytes": 9106
+    }
+  ]
+}

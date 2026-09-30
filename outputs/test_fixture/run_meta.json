@@ -1,0 +1,11 @@
+{
+  "n_items": 5,
+  "tool": "minicpm-o-router + vibevoice-asr + auk",
+  "model_versions": {
+    "router": "openbmb/MiniCPM-o-2_6",
+    "asr": "microsoft/VibeVoice-ASR",
+    "editor": "tencent/AuK (placeholder)",
+    "separation": "facebook/sam-audio (placeholder)"
+  },
+  "track": "ICASSP 2027 Audio Editing Challenge -- Agent Track"
+}

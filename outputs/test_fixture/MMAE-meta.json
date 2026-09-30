@@ -1,0 +1,29 @@
+{
+  "data": [
+    {
+      "id": "mmae_001",
+      "audio": "mmae_001.wav",
+      "instruction": "replace the background with silence"
+    },
+    {
+      "id": "mmae_002",
+      "audio": "mmae_002.wav",
+      "instruction": "make it louder"
+    },
+    {
+      "id": "mmae_003",
+      "audio": "mmae_003.wav",
+      "instruction": "speed up the recording 1.5x"
+    },
+    {
+      "id": "mmae_004",
+      "audio": "mmae_004.wav",
+      "instruction": "remove the noise from the audio"
+    },
+    {
+      "id": "mmae_005",
+      "audio": "mmae_005.wav",
+      "instruction": "shift pitch up by 2 semitones"
+    }
+  ]
+}

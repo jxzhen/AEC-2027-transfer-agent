@@ -1,0 +1,32 @@
+[
+  {
+    "id": "mmae_001",
+    "audio": "audio/mmae_001.wav",
+    "instruction": "replace the background with silence",
+    "elapsed": 0.03700876235961914
+  },
+  {
+    "id": "mmae_002",
+    "audio": "audio/mmae_002.wav",
+    "instruction": "make it louder",
+    "elapsed": 0.032007694244384766
+  },
+  {
+    "id": "mmae_003",
+    "audio": "audio/mmae_003.wav",
+    "instruction": "speed up the recording 1.5x",
+    "elapsed": 0.03300738334655762
+  },
+  {
+    "id": "mmae_004",
+    "audio": "audio/mmae_004.wav",
+    "instruction": "remove the noise from the audio",
+    "elapsed": 0.03300786018371582
+  },
+  {
+    "id": "mmae_005",
+    "audio": "audio/mmae_005.wav",
+    "instruction": "shift pitch up by 2 semitones",
+    "elapsed": 0.03250908851623535
+  }
+]

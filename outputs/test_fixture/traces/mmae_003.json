@@ -1,0 +1,16 @@
+{
+  "id": "mmae_003",
+  "instruction": "speed up the recording 1.5x",
+  "plan": {
+    "tool_sequence": [
+      "dsp_speed"
+    ],
+    "speed": 1.5,
+    "volume_db": null,
+    "pitch_semitones": null,
+    "separation": null,
+    "edit_target": null
+  },
+  "elapsed_seconds": 0.033,
+  "output_audio": "audio/mmae_003.wav"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "mmae_002",
+  "instruction": "make it louder",
+  "plan": {
+    "tool_sequence": [
+      "dsp_volume"
+    ],
+    "speed": null,
+    "volume_db": 6.0,
+    "pitch_semitones": null,
+    "separation": null,
+    "edit_target": null
+  },
+  "elapsed_seconds": 0.032,
+  "output_audio": "audio/mmae_002.wav"
+}

@@ -1,0 +1,27 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+.env
+*.swp
+.DS_Store
+hf_cache/
+pip_cache/
+*.tar
+*.tar.gz
+*.zip
+
+# dev-only helpers (regenerable)
+tools/_clean_ascii.py
+tools/_find_non_ascii.py
+tools/_b64gen.py
+tools/_paste_cmd.txt
+
+# smoke-test outputs are committed for reproducibility, but keep
+# large model checkpoints out
+*.safetensors
+*.bin
+*.pt
+*.gguf
